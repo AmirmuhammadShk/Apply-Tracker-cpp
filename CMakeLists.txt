@@ -93,3 +93,54 @@ if(APPLY_TRACKER_BUILD_API)
         -Wpedantic
     )
 endif()
+if(APPLY_TRACKER_BUILD_TESTS)
+    enable_testing()
+
+    add_executable(
+        application-service-tests
+        tests/ApplicationServiceTests.cpp
+    )
+
+    target_link_libraries(
+        application-service-tests
+        PRIVATE
+        apply_tracker_core
+    )
+
+    target_compile_options(
+        application-service-tests
+        PRIVATE
+        -Wall
+        -Wextra
+        -Wpedantic
+    )
+
+    add_test(
+        NAME ApplicationServiceTests
+        COMMAND application-service-tests
+    )
+
+    add_executable(
+        app-config-tests
+        tests/AppConfigTests.cpp
+    )
+
+    target_link_libraries(
+        app-config-tests
+        PRIVATE
+        apply_tracker_core
+    )
+
+    target_compile_options(
+        app-config-tests
+        PRIVATE
+        -Wall
+        -Wextra
+        -Wpedantic
+    )
+
+    add_test(
+        NAME AppConfigTests
+        COMMAND app-config-tests
+    )
+endif()
