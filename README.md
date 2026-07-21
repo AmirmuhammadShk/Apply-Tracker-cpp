@@ -110,3 +110,30 @@ I created this project for two main reasons:
 
 The project also helps me practise writing reusable components that can support multiple interfaces, such as a command-line application and an HTTP API.
 
+
+## License
+
+This project is free software, released under the **GNU General Public License v3.0 or later**.
+
+You are free to:
+
+* Use the software for any purpose
+* Study and modify the source code
+* Share copies of the software
+* Distribute modified versions
+
+Any redistributed or modified version must remain under the same free and open-source license.
+
+> Free Software, Free Society.
+
+See the [`LICENSE`](LICENSE) file for the complete license text.
+
+<div align="center">
+
+## 🄯 Copyleft
+
+**Apply Tracker C++**
+
+Copyright © 2026 Amir Shakeri
+
+</div>
