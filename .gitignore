@@ -1,0 +1,10 @@
+build/
+cmake-build-*/
+
+.vscode/
+.idea/
+
+config/service_account.json
+
+*.log
+*.tmp

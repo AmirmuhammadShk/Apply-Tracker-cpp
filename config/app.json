@@ -1,0 +1,6 @@
+{
+  "spreadsheet_id": "1K-wfXioaDnmVoXTgXqCJOaNwuA2CMvyGFxdovbgAzIA",
+  "worksheet_name": "Sheet1",
+  "service_account_file": "config/service_account.json",
+  "api_port": 8080
+}
